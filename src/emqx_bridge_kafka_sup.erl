@@ -8,9 +8,6 @@
 %%%-------------------------------------------------------------------
 -module(emqx_bridge_kafka_sup).
 -author("root").
-
--module(emqx_bridge_kafka_sup).
-
 -behaviour(supervisor).
 
 -export([start_link/0]).
