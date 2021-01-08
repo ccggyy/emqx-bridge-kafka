@@ -11,7 +11,7 @@
 -include("../include/emqx_bridge_kafka.hrl").
 -behaviour(application).
 
--emqx_plugin(bridge).
+-emqx_plugin(?MODULE).
 -export([start/2, stop/1, prep_stop/1]).
 
 -vsn("4.2.2").
